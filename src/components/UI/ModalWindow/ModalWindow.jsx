@@ -2,7 +2,7 @@ import { createPortal } from 'react-dom';
 import { useEffect } from 'react';
 
 import {
-  StyledModalWindowOverlay,
+  Overlay,
   StyledModalWindow,
   StyledModalWindowCloseButton,
   StyledModalWindowCloseIcon,
@@ -33,20 +33,20 @@ const ModalWindow = ({ onClose, children }) => {
   };
 
   return createPortal(
-    <StyledModalWindowOverlay onClick={handleBackdropClick}>
+    <Overlay onClick={handleBackdropClick}>
       <StyledModalWindow>
         <StyledModalWindowCloseButton
           aria-label="Close button"
           onClick={onClose}
         >
           <StyledModalWindowCloseIcon>
-            <use xlinkHref="/sprite.svg#icon-cross" />
+            {/* <use xlinkHref="/sprite.svg#close" /> */}
           </StyledModalWindowCloseIcon>
         </StyledModalWindowCloseButton>
 
-        <StyledModalWindowContainer>{children}</StyledModalWindowContainer>
+        {children}
       </StyledModalWindow>
-    </StyledModalWindowOverlay>,
+    </Overlay>,
     document.getElementById('modal-root')
   );
 };

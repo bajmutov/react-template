@@ -6,7 +6,7 @@ export const StyledLoaderWrapper = styled.div`
   width: 100%;
   overflow: hidden;
   top: 0;
-  left: 0%;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;

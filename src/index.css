@@ -1,20 +1,22 @@
 @import-normalize; /* bring in normalize.css styles */
 
 :root {
-  --font-family: "Manrope", sans-serif;
-  --second-font-family: "Inter", sans-serif;
-  
-  --main-bg-color: 	#A9A9A9;
-  
+  --font-family: 'Manrope', sans-serif;
+  --second-font-family: 'Inter', sans-serif;
+
+  --main-bg-color: #a9a9a9;
+  --overlay-color: rgba(46, 47, 66, 0.4);
+
   --main-text-color: rgba(18, 20, 23, 0.5);
   --secondary-text-color: #121417;
-  
+  --light-text-color: #fff;
+
   --accent-color: #3470ff;
   --hover-color: #0b44cd;
 
   --box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
- 
+
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   font-synthesis: none;
@@ -24,17 +26,17 @@
 }
 
 body {
-/*    font-family: var(--font-family); */
+  /*    font-family: var(--font-family); */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-/*   margin: 0; */
+  /*   margin: 0; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
-  
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -57,6 +59,7 @@ h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  letter-spacing: 0.02em;
 }
 
 ul,
@@ -107,31 +110,4 @@ a {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-/* <!-- BackDrop --> */
-
-.backdrop {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity var(--transition),
-    visibility var(--transition);
-}
-
-.modal {
-  width: 392px;
-  min-height: 576px;
-  padding: 24px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background-color: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transform: translate(-50%, -50%) scale(1) rotate(0);
-  transition: transform var(--transition);
 }
