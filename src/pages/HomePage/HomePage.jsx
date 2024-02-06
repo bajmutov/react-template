@@ -1,16 +1,16 @@
-import Container from 'components/Container';
-import { Heading, Text, Section } from './Home.styled';
+import Container from 'components/UI/Container';
+import { Heading, Text, HeroSection } from './HomePage.styled';
 import { useNavigate } from 'react-router-dom';
 
 export default function Home() {
   const navigate = useNavigate();
 
-  // const onHandleClick = () => {
-  //   navigate('/');
-  // };
+  const onHandleClick = () => {
+    navigate('/');
+  };
 
   return (
-    <Section>
+    <HeroSection>
       <Container>
         <Heading>
           Looking for a vehicle? You’re at the right place. Our company is the
@@ -23,10 +23,10 @@ export default function Home() {
           manufacturers in the world, including German favorites such as BMW,
           Mercedes, Audi and more.
         </Text>
-        {/* <Button paddingX={99} onClick={onHandleClick}>
+        <Button paddingX={99} paddingY={14} onClick={onHandleClick}>
           Name
-        </Button> */}
+        </Button>
       </Container>
-    </Section>
+    </HeroSection>
   );
 }
