@@ -1,6 +1,6 @@
 import {
   StyledFooter,
-  StyledFooterWrapper,
+  StyledFooterContainer,
   StyledFooterList,
   StyledFooterLink,
   // Twitter,
@@ -8,12 +8,13 @@ import {
 
 import Container from 'components/Container';
 import Icon from 'components/UI/Icon';
+import Logo from 'components/UI/Logo';
 
 const Footer = () => {
   return (
     <StyledFooter>
       <Container>
-        <StyledFooterWrapper>
+        <StyledFooterContainer>
           <Logo />
 
           <StyledFooterLink
@@ -40,7 +41,7 @@ const Footer = () => {
               </a>
             </li>
           </StyledFooterList>
-        </StyledFooterWrapper>
+        </StyledFooterContainer>
       </Container>
     </StyledFooter>
   );

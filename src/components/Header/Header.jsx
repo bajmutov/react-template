@@ -1,6 +1,6 @@
 import Container from 'components/UI/Container';
-import Logo from '../ui/Logo/Logo';
 import Navigation from 'components/UI/Navigation';
+import Logo from 'components/UI/Logo';
 
 import { StyledHeader, StyledHeaderContainer } from './Header.styled';
 
