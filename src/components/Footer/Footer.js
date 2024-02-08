@@ -6,7 +6,7 @@ import {
   // Twitter,
 } from './Footer.styled';
 
-import Container from 'components/Container';
+import Container from 'components/UI/Container';
 import Icon from 'components/UI/Icon';
 import Logo from 'components/UI/Logo';
 
