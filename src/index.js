@@ -11,11 +11,11 @@ import App from 'App';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <PersistGate loading={null} persistor={persistor}>
-      <Provider store={store}>
-        <BrowserRouter basename="/basename-repo"> */}
-    <App />
-    {/* </BrowserRouter>
-      </Provider>
+      <Provider store={store}> */}
+    <BrowserRouter basename="/react-template">
+      <App />
+    </BrowserRouter>
+    {/* </Provider>
     </PersistGate> */}
   </React.StrictMode>
 );
