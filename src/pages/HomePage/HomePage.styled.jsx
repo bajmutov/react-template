@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 // import Image from '../../images/car.jpg';
 
 export const HeroSection = styled.section`
