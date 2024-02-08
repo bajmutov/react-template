@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
   line-height: calc(20 / 14);
   font-weight: 600;
   border: 1px solid var(--accent-color);
-  padding: ${({ paddingY, paddingX }) => `${paddingY}px ${paddingX}px`};
+  padding: ${({ padY, padX }) => `${padY}px ${padX}px`};
   border-radius: 12px;
   background: var(--accent-color);
   transition: var(--transition);
