@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import Image from '../../images/car.jpg';
 
 export const HeroSection = styled.section`
   max-width: 1440px;
@@ -12,7 +11,6 @@ export const HeroSection = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--light-text-color);
-  // background-image: url(${Image});
   // background-image: linear-gradient(
   //     rgba(46, 47, 66, 0.7),
   //     rgba(46, 47, 66, 0.7)
