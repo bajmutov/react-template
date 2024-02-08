@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
+import { lazy } from 'react';
 
 import NotFoundPage from 'pages/NotFoundPage';
 import Layout from 'pages/Layout';

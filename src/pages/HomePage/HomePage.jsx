@@ -1,6 +1,7 @@
 import Container from 'components/UI/Container';
 import { Heading, Text, HeroSection } from './HomePage.styled';
 import { useNavigate } from 'react-router-dom';
+import Button from 'components/UI/Button';
 
 export default function Home() {
   const navigate = useNavigate();

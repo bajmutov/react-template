@@ -28,7 +28,7 @@ const Footer = () => {
           <StyledFooterList>
             <li>
               <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-                <Twitter />
+                {/* <Twitter /> */}
               </a>
             </li>
             <li>

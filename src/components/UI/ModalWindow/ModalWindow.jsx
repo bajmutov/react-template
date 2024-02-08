@@ -6,7 +6,6 @@ import {
   StyledModalWindow,
   StyledModalWindowCloseButton,
   StyledModalWindowCloseIcon,
-  StyledModalWindowContainer,
 } from './ModalWindow.styled';
 
 const ModalWindow = ({ onClose, children }) => {
