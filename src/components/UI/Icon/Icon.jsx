@@ -1,5 +1,5 @@
-import { ReactComponent as IconInstagram } from '../../../../assets/svg/instagram.svg';
-import sprite from '../../../../assets/svg/sprite.svg';
+import { ReactComponent as IconInstagram } from 'assets/svg/instagram.svg';
+import sprite from 'assets/svg/sprite.svg';
 import { SVG } from './Icon.styled';
 
 export default function Icon({ name, size = 24 }) {
