@@ -6,13 +6,15 @@ export const StyledButton = styled.button`
   line-height: calc(20 / 14);
   font-weight: 600;
   border: 1px solid var(--accent-color);
-  padding: ${({ padY, padX }) => `${padY}px ${padX}px`};
   border-radius: 12px;
-  background: var(--accent-color);
+  padding: ${({ padY, padX }) => `${padY}px ${padX}px`};
+  fill: ${({ fill }) => fill};
+  background-color: var(--accent-color);
   transition: var(--transition);
 
   &:hover,
   &:focus {
     background-color: var(--hover-color);
+    fill: var(--hover-color);
   }
 `;
