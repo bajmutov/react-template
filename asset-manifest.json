@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-template/static/css/main.7fbbd154.css",
-    "main.js": "/react-template/static/js/main.3325c39e.js",
-    "static/js/99.8096e52c.chunk.js": "/react-template/static/js/99.8096e52c.chunk.js",
+    "main.js": "/react-template/static/js/main.dd4f3141.js",
+    "static/js/99.8022a127.chunk.js": "/react-template/static/js/99.8022a127.chunk.js",
     "static/media/instagram.svg": "/react-template/static/media/instagram.427d3d0f3e7d13f1f5c9a4cd51a35c4a.svg",
-    "static/media/sprite.svg": "/react-template/static/media/sprite.4748fc16dae852e1b2e21b2eecf758e3.svg",
+    "static/media/sprite.svg": "/react-template/static/media/sprite.8e5f996f051ddef97cf0d15f7a1b333a.svg",
     "index.html": "/react-template/index.html",
     "main.7fbbd154.css.map": "/react-template/static/css/main.7fbbd154.css.map",
-    "main.3325c39e.js.map": "/react-template/static/js/main.3325c39e.js.map",
-    "99.8096e52c.chunk.js.map": "/react-template/static/js/99.8096e52c.chunk.js.map"
+    "main.dd4f3141.js.map": "/react-template/static/js/main.dd4f3141.js.map",
+    "99.8022a127.chunk.js.map": "/react-template/static/js/99.8022a127.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fbbd154.css",
-    "static/js/main.3325c39e.js"
+    "static/js/main.dd4f3141.js"
   ]
 }
