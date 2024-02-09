@@ -1,6 +1,7 @@
 import { StyledButton } from './Button.styled';
 
 const Button = ({
+  type = 'button',
   padY = 12,
   padX = 50,
   fill,
@@ -10,6 +11,7 @@ const Button = ({
 }) => {
   return (
     <StyledButton
+      type={type}
       padY={padY}
       padX={padX}
       disabled={disabled}
