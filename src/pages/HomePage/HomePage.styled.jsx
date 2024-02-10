@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Image from 'assets/backgroundImg/car.jpg';
 
 export const HeroSection = styled.section`
   max-width: 1440px;
@@ -6,22 +7,20 @@ export const HeroSection = styled.section`
   padding-top: 112px;
   padding-bottom: 112px;
   text-align: center;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--light-text-color);
-  // background-image: linear-gradient(
-  //     rgba(46, 47, 66, 0.7),
-  //     rgba(46, 47, 66, 0.7)
-  //   ),
-  //   url('../images/hero-mobile.jpg');
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(${Image});
 `;
-
 export const Heading = styled.h1`
   font-size: 36px;
   line-height: calc(40 / 36);
-  color: var(--main-text-color);
+  color: var(--light-text-color);
   margin-bottom: 72px;
   max-width: 320px;
   margin-left: auto;

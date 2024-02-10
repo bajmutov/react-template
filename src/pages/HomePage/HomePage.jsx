@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import Container from 'components/UI/Container';
 import Button from 'components/UI/Button';
 import { Heading, Text, HeroSection } from './HomePage.styled';
-import icon from '../../assets/svg/sprite.svg';
+import icon from 'assets/svg/sprite.svg';
 
 export default function Home() {
   const navigate = useNavigate();
